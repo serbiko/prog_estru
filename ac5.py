@@ -8,7 +8,7 @@ def jogo():
     dano_m = random.randint(20, 30)
     defesa_j = random.randint(1, 5)
     rodada = 1
-    while vida_j >= 0 and vida_m >= 0:
+    while vida_j > 0 and vida_m > 0:
         print("Aventureiro: vida %d - att - %d - def %d" % (vida_j, dano_j, defesa_j))
         print("Monstro: vida %d - att - %d" % (vida_m, dano_m))
         print("Rodada %d" % rodada)
